@@ -1,0 +1,8 @@
+branches:
+  master:
+    increment: Patch
+  develop:
+    increment: Minor
+    tag: alpha
+  release:
+    tag: beta
