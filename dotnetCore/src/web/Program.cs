@@ -15,6 +15,7 @@ namespace web
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            // Dumb comment
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
