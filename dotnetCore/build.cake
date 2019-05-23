@@ -72,6 +72,8 @@ Task("Version")
 {
     var version = GitVersion();
     Information($"Calculated semVer {version.SemVer}");
+
+    //GitVersion(new GitVErs)
 });
 
 Task("CI-Local")
