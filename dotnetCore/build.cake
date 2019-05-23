@@ -71,7 +71,7 @@ Task("Version")
     .Does(() =>
 {
     var version = GitVersion();
-    Information($"Calculated semVer {version.SemVer}");
+    Information($"Calculated semVer {version.SemVer} : {version.BranchName}");
 
     //GitVersion(new GitVErs)
 });
