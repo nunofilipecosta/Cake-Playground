@@ -72,7 +72,7 @@ Task("Version")
 {
     var version = GitVersion();
     Information($"Calculated semVer {version.SemVer} : {version.BranchName}");
-    // dumn comment /// ///
+    // dumn comment /// /// // /// //
     //GitVersion(new GitVErs)
 });
 
